@@ -69,3 +69,11 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact: ./out
+          branch: gh-pages
+          publish_dir: out
+          commit_message: "Deploy NextJS site to GitHub Pages"
+          token: ${{ secrets.GH_TOKEN }}
+          # If you want to use a custom domain, uncomment the following line and set your domain
+          # custom_domain: your-custom-domain.com
