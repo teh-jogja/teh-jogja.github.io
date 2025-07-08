@@ -66,7 +66,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-yellow-400">Email</h3>
-                  <p className="text-gray-300">Armacaraka@gmail.com</p>
+                  <p className="text-gray-300">tehjogja01@gmail.com</p>
                 </div>
               </div>
             </GlassCard>

@@ -37,7 +37,7 @@ export default function Information() {
               </div>
               <div className="flex items-center justify-center space-x-3">
                 <Mail className="w-5 h-5 text-blue-400" />
-                <span className="text-gray-300">Armacaraka@gmail.com</span>
+                <span className="text-gray-300">tehjogja01@gmail.com</span>
               </div>
             </div>
           </GlassCard>
